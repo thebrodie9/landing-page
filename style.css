@@ -35,3 +35,6 @@ a {
     padding: 0;
     flex-shrink: 0;
 }
+.mid-container {
+    display: flex;
+}
