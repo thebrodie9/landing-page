@@ -25,7 +25,7 @@ a {
     height: 72px;
     margin: 0;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .header {
@@ -33,4 +33,5 @@ a {
     font-size: 48px;
     font-weight: bolder;
     padding: 0;
+    flex-shrink: 0;
 }
