@@ -80,3 +80,28 @@ button{
 }
 
 
+.tile-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tiles {
+    display: flex;
+    flex-direction: row;
+}
+
+.photo-tiles{
+    width: 200px;
+    height: 150px;
+    padding: 12px;
+    border-radius: 4px;
+    border-color: #3882F8;
+}
+
+.tile-header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
