@@ -42,9 +42,17 @@ a {
     background-color: #1f2937;
 }
 
+.left-mid{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 .mid-logo {
     width: 500px;
     height: 300px;
+    padding: 16px;
 }
 
 .left-mid-header {
@@ -53,9 +61,21 @@ a {
     font-weight:bolder;
 
 }
+
 .left-mid-subtext{
     color: #e5e7eb;
     font-size: 18px;
+
+}
+
+button{
+    background-color: #3882F8;
+    color: #f9faf8;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    align-self: flex-start;
+    flex: 1;
 
 }
 
