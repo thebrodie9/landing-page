@@ -37,4 +37,14 @@ a {
 }
 .mid-container {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
+
+.mid-logo {
+    width: 500px;
+    height: 300px;
+}
+
+
+
