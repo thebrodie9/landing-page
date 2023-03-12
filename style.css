@@ -39,6 +39,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: #1f2937;
 }
 
 .mid-logo {
@@ -46,5 +47,16 @@ a {
     height: 300px;
 }
 
+.left-mid-header {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight:bolder;
+
+}
+.left-mid-subtext{
+    color: #e5e7eb;
+    font-size: 18px;
+
+}
 
 
