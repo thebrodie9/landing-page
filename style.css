@@ -87,6 +87,7 @@ button{
     flex-direction: column;
     align-items: center;
     padding-top: 45px;
+    padding-bottom: 45px;
 }
 
 .tiles {
@@ -151,8 +152,9 @@ button{
     background-color: #3882F8;
     border: 2px solid #3882F8;
     border-radius: 4px;
-    justify-content: space-around;
+    justify-content:space-evenly;
     align-items: center;
+    padding:0;
 }
 
 .footer-head{
@@ -166,13 +168,19 @@ button{
     font-size: 16px;
     }
 
-.footer-left{
+.left-footer{
     display: flex;
     flex-direction: column;
+    gap: 4px;
+    margin: 45px;
+
 
 }
 
-.footer-right{
+.right-footer{
     align-items: center;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 12px;
 }
 
