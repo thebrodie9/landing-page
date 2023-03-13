@@ -145,3 +145,34 @@ button{
     margin-right: 350px;
     flex: auto;
 }
+.footer {
+    display: flex;
+    margin: 150px;
+    background-color: #3882F8;
+    border: 2px solid #3882F8;
+    border-radius: 4px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-head{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.footer-sub{
+    color: white;
+    font-size: 16px;
+    }
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-right{
+    align-items: center;
+}
+
