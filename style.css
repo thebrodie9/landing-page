@@ -40,6 +40,8 @@ a {
     align-items: center;
     justify-content: space-around;
     background-color: #1f2937;
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 
 .left-mid{
@@ -84,12 +86,14 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 45px;
 }
 
 .tiles {
     display: flex;
     flex-direction: row;
     gap: 16px;
+    padding-top: 45px;
 }
 
 .photo-tiles{
@@ -97,6 +101,7 @@ button{
     height: 150px;
     padding: 12px;
     border: 4px solid #3882F8;
+    border-radius: 15px;
     padding: 0;
 }
 
@@ -112,3 +117,31 @@ button{
     align-items: center;
 }
 
+.tile-sub {
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.quote-section{
+    background-color: #e5e7eb;
+    padding: 150px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+.quote-sayer {
+    display: flex;
+    justify-content: right;
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 350px;
+    flex: auto;
+}
